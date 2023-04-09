@@ -84,8 +84,8 @@ namespace StyleSheetExample
     // - Use the 'I' prefix.
     public interface IDamageable
     {
-        string damageTypeName { get; }
-        float damageValue { get; }
+        string DamageTypeName { get; }
+        float DamageValue { get; }
 
         // METHODS:
         // - Start a methods name with a verbs or verb phrases to show an action.
